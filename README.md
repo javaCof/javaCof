@@ -1,11 +1,11 @@
-## 👋 About Me
+# 👋 About Me
 
 ### Unity Client Programmer | System Design Focus
 
-I am a Unity client programmer based in Korea, focused on building robust game systems and clean architecture.
+I am a Unity client programmer focused on building robust game systems and clean, maintainable architecture.
 
-I enjoy solving problems related to spatial logic, rendering systems, and data-driven architecture,
-and continuously refine my work into clear, structured, and production-ready code.
+I specialize in solving problems related to spatial logic, rendering systems, and procedural generation,  
+with a strong emphasis on clarity, structure, and reliability in code.
 
 ## 🛠 Tech Stack
 
@@ -19,30 +19,38 @@ and continuously refine my work into clear, structured, and production-ready cod
 ### 🔹 My Little Company
 > **Tile System & Render Ordering**
 
-- Designed and implemented a tile-based spatial system
-- Built world ↔ tile coordinate conversion for isometric environments
-- Developed a dependency-based render ordering system (**OrderTree**)
-- Structured object placement and rendering into modular components
+[Repository](https://github.com/javaCof/MyLittleCompany-reconstructed)
 
-**Focus:** System Design / Spatial Logic / Rendering Pipeline
+- Designed and implemented a tile-based spatial system  
+- Built world ↔ tile coordinate conversion for isometric environments  
+- Developed a dependency-based render ordering system (**OrderTree**) to resolve complex occlusion  
+- Structured object placement and rendering into modular components  
 
-### 🔹 Animal Kingdom (Reconstructed)
-> **Domain Model & UI Flow**
-
-- Reconstructed a released mobile RPG project for portfolio purposes
-- Designed domain-driven structures for character and inventory systems
-- Implemented modular and reusable UI architecture
-
-**Focus:** Data Modeling / UI Architecture
+**Focus:** System Design / Spatial Logic / Rendering Pipeline  
 
 ### 🔹 Dungeon Of Cursed
 > **Procedural Generation (BSP)**
 
-- Implemented BSP-based dungeon generation
-- Designed recursive space partitioning and room connection logic
-- Built data-driven map construction pipeline
+[Repository](https://github.com/javaCof/DungeonOfCursed-reconstructed)
 
-**Focus:** Algorithm Design / Procedural Generation
+- Designed a BSP-based dungeon generation system with guaranteed full connectivity  
+- Solved structural limitations of traditional BSP using **leaf-to-leaf connection logic**  
+- Implemented deterministic connection control through directional rules  
+- Built a data-driven map generation pipeline  
+
+**Focus:** Algorithm Design / Procedural Generation / System Design  
+
+### 🔹 Animal Kingdom (Reconstructed)
+> **Domain Model & UI Flow**
+
+[Repository](https://github.com/javaCof/AnimalKingdom-reconstructed)
+
+- Extracted and reconstructed core systems from a released mobile RPG project  
+- Designed domain-driven structures for character and inventory systems  
+- Implemented modular and reusable UI architecture  
+- Structured interaction flow between UI and domain logic  
+
+**Focus:** Data Modeling / UI Architecture / System Structure  
 
 ## 📫 Contact
 
