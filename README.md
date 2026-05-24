@@ -2,55 +2,61 @@
 
 ### Unity Client Programmer | System Design Focus
 
-I am a Unity client programmer focused on building robust game systems and clean, maintainable architecture.
-
-I specialize in solving problems related to spatial logic, rendering systems, and procedural generation,  
-with a strong emphasis on clarity, structure, and reliability in code.
-
-## 🛠 Tech Stack
-
-<div align="left">
-  <img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white"/>
-  <img src="https://img.shields.io/badge/C%23-5C2D91?style=flat-square&logo=unity&logoColor=white"/>
-</div>
+> I build game systems with a focus on spatial logic, runtime behavior, and scalable architecture.  
+> I prioritize clarity, predictable systems, and maintainable code structure.
 
 ## 🚀 Featured Projects
 
 ### 🔹 My Little Company
-> **Tile System & Render Ordering**
 
-[Repository](https://github.com/javaCof/MyLittleCompany-reconstructed)
+> Tile-based simulation system with spatial rendering and dependency-based ordering.
+
+<div align="left">
+  <img src="https://raw.githubusercontent.com/javaCof/javaCof/main/assets/mlc_character_move.gif" width="500"/>
+</div>
 
 - Designed and implemented a tile-based spatial system  
 - Built world ↔ tile coordinate conversion for isometric environments  
-- Developed a dependency-based render ordering system (**OrderTree**) to resolve complex occlusion  
+- Developed a dependency-based render ordering system (OrderTree) to resolve complex occlusion cases  
 - Structured object placement and rendering into modular components  
 
 **Focus:** System Design / Spatial Logic / Rendering Pipeline  
 
+[Repository](https://github.com/javaCof/MyLittleCompany)
+
 ### 🔹 Dungeon Of Cursed
-> **Procedural Generation (BSP)**
 
-[Repository](https://github.com/javaCof/DungeonOfCursed-reconstructed)
+> BSP-based procedural dungeon generation with guaranteed connectivity.
 
-- Designed a BSP-based dungeon generation system with guaranteed full connectivity  
-- Solved structural limitations of traditional BSP using **leaf-to-leaf connection logic**  
-- Implemented deterministic connection control through directional rules  
-- Built a data-driven map generation pipeline  
+<div align="left">
+  <img src="https://raw.githubusercontent.com/javaCof/javaCof/main/assets/doc_map_generation.gif" width="500"/>
+</div>
+
+- Designed a BSP-based procedural dungeon generation system with full map connectivity guarantees  
+- Addressed structural limitations of traditional BSP using leaf-to-leaf connection logic  
+- Implemented deterministic connection rules for reproducible dungeon layouts  
+- Built a data-driven procedural map generation system  
 
 **Focus:** Algorithm Design / Procedural Generation / System Design  
 
-### 🔹 Animal Kingdom (Reconstructed)
-> **Domain Model & UI Flow**
+[Repository](https://github.com/javaCof/DungeonOfCursed)
 
-[Repository](https://github.com/javaCof/AnimalKingdom-reconstructed)
+### 🔹 Animal Kingdom
 
-- Extracted and reconstructed core systems from a released mobile RPG project  
-- Designed domain-driven structures for character and inventory systems  
+> Domain-driven architecture & UI flow system for mobile RPG structure
+
+<div align="left">
+  <img src="https://raw.githubusercontent.com/javaCof/javaCof/main/assets/ak_character_selection.png" width="500"/>
+</div>
+
+- Designed and implemented core systems based on mobile RPG architecture patterns  
+- Developed domain-driven architecture for character and inventory systems  
 - Implemented modular and reusable UI architecture  
-- Structured interaction flow between UI and domain logic  
+- Structured interaction flow between UI and domain logic layers  
 
-**Focus:** Data Modeling / UI Architecture / System Structure  
+**Focus:** System Design / Data Modeling / UI Architecture  
+
+[Repository](https://github.com/javaCof/AnimalKingdom)
 
 ## 📫 Contact
 
